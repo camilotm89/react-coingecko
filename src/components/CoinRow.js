@@ -3,7 +3,7 @@ import React from "react";
 const CoinRow = ({coin, index}) => {
     return(
         <tr>
-            {console.log(coin)}
+
             <td>{index}</td>
             <td>
                 <img src={coin.image} style={{width:'3%'}} alt={coin.name} className="img-fluid me-4"/> 
